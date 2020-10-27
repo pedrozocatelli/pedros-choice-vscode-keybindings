@@ -4,8 +4,16 @@
   "description": "Pedro's choice of the best keybindings for development with VS Code",
   "version": "1.0.0",
   "publisher": "pedrozocatelli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings"
+  },
+  "bugs": {
+    "url": "https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/issues"
+  },
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.9.0"
+    "vscode": "^1.32.0"
   },
   "galleryBanner": {
     "color": "#ff7300",
@@ -18,14 +26,7 @@
     "keymap"
   ],
   "preview": false,
-  "icon": "pedro.jpg",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings"
-  },
-  "bugs": {
-    "url": "https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/issues"
-  },
+  "icon": "images/pedroschoice.jpg",
   "contributes": {
     "keybindings": [
       {
