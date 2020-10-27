@@ -28,14 +28,13 @@ This extension imports a selection of keybindings chosen by Pedro.
 
 
 ## Contributing
-### How do I contribute a keyboard shortcut?
+### How do I contribute?
 
-I may have missed an important keyboard shortcut or you may have a sugestion.
+I may have missed an important keyboard shortcut or you might have a sugestion.
 
-
-1. Head over to the [GitHub repository](https://github.com/pedrozocatelli/vscode-pedros-choice-keybinding). 
-2. Open the [`package.json` file](https://github.com/pedrozocatelli/vscode-pedros-choice-keybinding/blob/main/package.json). 
-3. Add a JSON object to [`contributes.keybindings`](https://github.com/pedrozocatelli/vscode-pedros-choice-keybinding/blob/main/package.json#L26) as seen below. 
+1. Head over to the [GitHub repository](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings). 
+2. Open the [`package.json` file](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/blob/main/package.json). 
+3. Add a JSON object to [`contributes.keybindings`](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/blob/main/package.json#L26) as seen below. 
 4. Open a pull request. 
 
 ```json
