@@ -1,0 +1,115 @@
+{
+  "name": "pedros-choice-vscode-keybindings",
+  "displayName": "Pedro's Choice - Keymap",
+  "description": "Pedro's choice of the best keybindings for development with VS Code",
+  "version": "1.0.0",
+  "publisher": "pedrozocatelli",
+  "engines": {
+    "vscode": "^1.9.0"
+  },
+  "galleryBanner": {
+    "color": "#ff7300",
+    "theme": "dark"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "keywords": [
+    "keymap"
+  ],
+  "preview": false,
+  "icon": "pedro.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings"
+  },
+  "bugs": {
+    "url": "https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/issues"
+  },
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+e",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "alt+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "alt+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+1",
+        "command": "workbench.view.explorer"
+      },
+      {
+        "key": "ctrl+shift+1",
+        "command": "workbench.files.action.focusOpenEditorsView"
+      },
+      {
+        "key": "alt+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "alt+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "editor.fold",
+        "key": "ctrl+numpad_subtract",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "editor.unfold",
+        "key": "ctrl+numpad_add",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "editor.foldAll",
+        "key": "ctrl+shift+numpad_subtract",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "editor.unfoldAll",
+        "key": "ctrl+shift+numpad_add",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "workbench.action.closeEditorsInGroup",
+        "key": "ctrl+shift+w"
+      }
+    ]
+  }
+}
