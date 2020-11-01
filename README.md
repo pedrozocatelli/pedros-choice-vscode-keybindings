@@ -31,7 +31,15 @@ This extension imports a selection of the best keybindings chosen by Pedro.
 | `unfoldAll` | `cmd+shift+numpad_add ` | `ctrl+shift+numpad_add ` | `ctrl+shift+numpad_add ` |
 | `viewExplorer` | `cmd+1` | `ctrl+1` | `ctrl+1` |
 
+## Add to your project
 
+There are 2 ways you can add Pedro's Choice - Keymap to your project:
+
+#### By command
+Launch VS Code Quick Open (`Ctrl+P`), paste `ext install pedroschoice.pedros-choice-vscode-keybindings`, and press enter.
+
+#### By the Extension Marketplace
+Launch VS Code Extension Marketplace (Ctrl+Shift+X), search for `Pedro's Choice`, and look for the best looking bald dude in the store.
 
 ## Contributing
 ### How do I contribute?
