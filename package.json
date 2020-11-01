@@ -26,7 +26,7 @@
     "keymap"
   ],
   "preview": false,
-  "icon": "images/pedroschoice.jpg",
+  "icon": "images/pedroschoice.png",
   "contributes": {
     "keybindings": [
       {
@@ -94,7 +94,6 @@
         "when": "workbench.explorer.openEditorsView.active"
       },
       {
-
         "mac": "cmd+numpad_subtract",
         "win": "ctrl+numpad_subtract",
         "linux": "ctrl+numpad_subtract",
@@ -199,5 +198,8 @@
         "when": "editorTextFocus"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^1.81.1"
   }
 }
