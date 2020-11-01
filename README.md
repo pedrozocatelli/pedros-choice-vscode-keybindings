@@ -1,7 +1,6 @@
-<p align="center">
-   <h2 align="center">Pedro's Choice</h2>
-    <h3 align="center">Keymap</h3>
-</p>
+<h1 align="center">
+   Pedro's Choice - Keymap
+</h1>
 
 This extension imports a selection of the best keybindings chosen by Pedro.
 
