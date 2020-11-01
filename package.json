@@ -3,7 +3,7 @@
   "displayName": "Pedro's Choice - Keymap",
   "description": "Pedro's choice of the best keybindings for development with VS Code",
   "version": "1.0.0",
-  "publisher": "pedrozocatelli",
+  "publisher": "pedroschoice",
   "repository": {
     "type": "git",
     "url": "https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings"
