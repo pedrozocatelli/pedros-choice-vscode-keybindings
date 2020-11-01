@@ -39,8 +39,8 @@ This extension imports a selection of the best keybindings chosen by Pedro.
 If you have a sugestion of an awesome shortcut, let me know.
 
 1. Head over to the [GitHub repository](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings). 
-2. Open the [`package.json` file](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/blob/main/package.json). 
-3. Add a JSON object to [`contributes.keybindings`](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/blob/main/package.json#L199) as seen below. 
+2. Open the [`package.json` file](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/blob/master/package.json). 
+3. Add a JSON object to [`contributes.keybindings`](https://github.com/pedrozocatelli/pedros-choice-vscode-keybindings/blob/master/package.json#L199) as seen below. 
 4. Open a pull request. 
 
 ```json
